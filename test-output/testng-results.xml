@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-26T16:38:21Z" name="Default suite" finished-at="2024-02-26T16:38:39Z" duration-ms="18283">
+    <groups>
+    </groups>
+    <test started-at="2024-02-26T16:38:21Z" name="Default test" finished-at="2024-02-26T16:38:39Z" duration-ms="18283">
+      <class name="automation.StandAloneTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:automation.StandAloneTest@3c01cfa1]" started-at="2024-02-26T16:38:21Z" name="lunchApplication" finished-at="2024-02-26T16:38:25Z" duration-ms="3728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:automation.StandAloneTest@3c01cfa1]" started-at="2024-02-26T16:38:25Z" name="submitOrder" data-provider="getdata" finished-at="2024-02-26T16:38:30Z" duration-ms="5021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, Productname=IPHONE 13 PRO, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.StandAloneTest@3c01cfa1]" started-at="2024-02-26T16:38:30Z" name="tearDown" finished-at="2024-02-26T16:38:30Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:automation.StandAloneTest@3c01cfa1]" started-at="2024-02-26T16:38:30Z" name="lunchApplication" finished-at="2024-02-26T16:38:34Z" duration-ms="4232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:automation.StandAloneTest@3c01cfa1]" started-at="2024-02-26T16:38:34Z" name="submitOrder" data-provider="getdata" finished-at="2024-02-26T16:38:39Z" duration-ms="4926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, Productname=ZARA COAT 3, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.StandAloneTest@3c01cfa1]" started-at="2024-02-26T16:38:39Z" name="tearDown" finished-at="2024-02-26T16:38:39Z" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.StandAloneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

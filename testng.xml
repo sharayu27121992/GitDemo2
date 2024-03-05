@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "true" name="Suite">
+  <test thread-count="5" name="standalone">
+    <classes>
+      <class name="automation.StandAloneTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="base">
+    <classes>  
+      <class name="automation.TestComponent.BaseClass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="erroevalidation">
+    <classes>
+      <class name="automation.ErrorValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
